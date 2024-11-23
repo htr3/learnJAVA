@@ -1,0 +1,67 @@
+	• Object-Oriented Programming (OOP)
+		○ Classes and Objects
+		○ Inheritance
+		○ Polymorphism
+		○ Encapsulation
+		○ Abstraction
+
+
+Classes and Objects
+    A Class is a user-defined blueprint or prototype from which objects are created. It represents the set of properties or methods that are common to all
+    objects of one type. Using classes, you can create multiple objects with the same behavior instead of writing their code multiple times.
+    This includes classes for objects occurring more than once in your code. In general, class declarations can include these components in order:
+        Modifiers: A class can be public or have default access (Refer to this for details).
+        Class name: The class name should begin with the initial letter capitalized by convention.
+        Body: The class body is surrounded by braces, { }.
+
+An Object is a basic unit of Object-Oriented Programming that represents real-life entities. A typical Java program creates many objects, which as you know,
+interact by invoking methods. The objects are what perform your code, they are the part of your code visible to the viewer/user.
+
+
+2. Encapsulation
+      It is defined as the wrapping up of data under a single unit. It is the mechanism that binds together the code and the data it manipulates.
+      1. data-hiding
+
+3. Inheritance
+      Inheritance is an important pillar of OOP (Object Oriented Programming).
+       It is the mechanism in Java by which one class is allowed to inherit the features (fields and methods)
+       of another class. We are achieving inheritance by using extends keyword.
+
+4. Polymorphism
+      This is done by Java with the help of the signature and declaration of these entities. The ability to appear in many forms is called polymorphism.
+      Types of Polymorphism
+      Polymorphism in Java is mainly of 2 types as mentioned below:
+
+      Method Overloading
+      Method Overriding
+      Method Overloading and Method Overriding
+
+      1. Method Overloading: Also, known as compile-time polymorphism, is the concept of Polymorphism where more than one method share
+       the same name with different signature(Parameters) in a class. The return type of these methods can or cannot be same.
+
+      2. Method Overriding: Also, known as run-time polymorphism, is the concept of Polymorphism where method in the child class has the same name,
+       return-type and parameters as in parent class.
+       The child class provides the implementation in the method already written.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
