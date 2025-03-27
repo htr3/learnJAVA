@@ -1,0 +1,37 @@
+Typically, we can define threads as a subprocess with lightweight with the smallest
+unit of processes and also has separate paths of execution. The main advantage of
+multiple threads is efficiency (allowing multiple things at the same time).
+For example, in MS Word. one thread automatically formats the document while another
+ thread is taking user input. Another advantage is quick response, if we use multiple
+ threads in a process and if a thread gets stuck due to lack of resources or an exception,
+ the other threads can continue to execution, allowing the process (which represents an
+ application) to continue to be responsive.
+
+
+ The Concept Of Multitasking
+To help users Operating System accommodates users the privilege of multitasking,
+ where users can perform multiple actions simultaneously on the machine.
+ This Multitasking can be enabled in two ways:
+
+Process-Based Multitasking
+Thread-Based Multitasking
+
+
+1. Process-Based Multitasking (Multiprocessing)
+
+In this type of Multitasking, processes are heavyweight and each process was allocated by a
+separate memory area. And as the process is heavyweight the cost of communication between
+processes is high and it takes a long time for switching between processes as it involves
+actions such as loading, saving in registers, updating maps, lists, etc.
+
+
+2. 2. Thread-Based Multitasking
+Threads are provided with lightweight nature and share the same address space,
+ and the cost of communication between threads is also low.
+
+
+ How to Create Threads using Java Programming Language?
+ We can create Threads in java using two ways, namely :
+
+ Extending Thread Class
+ Implementing a Runnable interface

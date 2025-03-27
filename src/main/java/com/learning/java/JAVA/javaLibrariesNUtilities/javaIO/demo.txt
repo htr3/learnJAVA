@@ -1,0 +1,36 @@
+System.in:
+ This is the standard input stream that is used to read characters from the
+ keyboard or any other standard input device.
+
+
+System.out:
+This is the standard output stream that is used to produce the result of a
+ program on an output device like the computer screen.
+print, println, printf,
+
+
+System.err:
+ This is the standard error stream that is used to output all
+ the error data that a program might throw,
+ on a computer screen or any standard output device.
+
+
+
+Input Stream:
+These streams are used to read data that must be taken as an input from a
+ source array or file or any peripheral device. For eg., FileInputStream,
+ BufferedInputStream, ByteArrayInputStream etc.
+
+Output Stream:
+These streams are used to write data as outputs into an array or file or
+any output peripheral device. For eg., FileOutputStream, BufferedOutputStream,
+ByteArrayOutputStream etc.
+
+
+ByteStream:
+This is used to process data byte by byte (8 bits). Though it has many classes,
+the FileInputStream and the FileOutputStream are the most popular ones.
+The FileInputStream is used to read from the source and FileOutputStream is used to
+write to the destination.
+
+
